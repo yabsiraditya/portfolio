@@ -1,0 +1,61 @@
+button {
+  border-radius: 10px !important;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #3d3d3d;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+@media (min-width: 769px) {
+  #gambarPC {
+    margin-top: -120px !important;
+  }
+  .jumbotron {
+    padding-top: 200px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+  #gambarPC {
+    margin-top: -60px !important;
+  }
+  .jumbotron {
+    padding-top: 120px;
+  }
+}
+
+@media (max-width: 576px) {
+  .jumbotron {
+    padding-top: 90px;
+  }
+}
+
+@font-face {
+  font-family: "Nunito";
+  src: url(font/Nunito-Regular.ttf);
+}
+
+.fontnunito {
+  font-family: "Nunito";
+}
+
+section {
+  padding-top: 5rem;
+}
